@@ -28,7 +28,7 @@ public static class Program
             InstanceTag = unleashOptions.InstanceTag,
 
             // The interval to fetch the toggles from the Unleash server
-            FetchTogglesInterval = TimeSpan.FromSeconds(5) // default is 30 sec.
+            FetchTogglesInterval = TimeSpan.FromSeconds(1) // default is 30 sec.
         });
         builder.Services.AddSingleton<IUnleash>(_ => unleash);
 
