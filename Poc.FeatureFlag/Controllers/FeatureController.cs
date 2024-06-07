@@ -18,8 +18,8 @@ public class FeatureController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok(_unleash.IsEnabled(FeatureFlags.IsAvailableForAllUsers) 
-            ? "New feature is available for all users." 
+        return Ok(_unleash.IsEnabled(FeatureFlags.IsAvailableForAllUsers)
+            ? "New feature is available for all users."
             : "This feature is under development and is not available for all users!");
     }
 }
