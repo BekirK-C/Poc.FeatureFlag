@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.FeatureFlag", "Poc.FeatureFlag\Poc.FeatureFlag.csproj", "{7E4AD518-3542-4C09-B6D4-F7BE2863F968}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poc.FeatureFlag", "src\Poc.FeatureFlag\Poc.FeatureFlag.csproj", "{7E4AD518-3542-4C09-B6D4-F7BE2863F968}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
